@@ -1,0 +1,44 @@
+.search {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 150px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.searchbar {
+  float: right;
+  background-color: #D03237;
+  color: white;
+  padding: 6px 10px;
+  width: 120px;
+  border: none;
+  margin-top: 1px;
+  margin-right: 8px;
+  font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  border-bottom: white solid 2px;
+  transition: 0.3s;
+}
+
+.searchbar::placeholder {
+  color: white;
+  font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  /* transition: 0.2s; */
+}
+
+.searchbar:focus {
+  width: 400px;
+  font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  transition: 0.3s;
+  /* Stops the input box from inheriting the styling from the inputs on the request form */
+  border-bottom: white solid 2px;
+  outline: none;
+}
